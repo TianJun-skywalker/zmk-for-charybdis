@@ -37,12 +37,12 @@
 
         layer_2 {
             bindings = <
-&kp ESC  &none     &none     &none      &none  &none      &none               &none  &kp KP_CLEAR  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp EQUAL     &kp BACKSPACE
-&kp TAB  &none     &kp UP    &none      &none  &none      &none               &none  &kp N7        &kp N8         &kp N9           &kp KP_PLUS   &none         &none
-&none    &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none      &none               &none  &kp NUMBER_4  &kp N5         &kp N6           &none         &none         &none
-&none    &none     &none     &none      &none  &none      &kp K_CALCULATOR    &none  &kp N1        &kp N2         &kp N3           &none         &none         &none
-&none    &none     &none     &none      &none  &kp SPACE  &none               &none  &kp RET       &to 0          &kp N0           &kp KP_DOT    &kp KP_ENTER  &none
-                                               &to 1      &to 2               &none  &none
+&kp ESC  &none     &none     &none      &none  &none      &none               &kp KP_NUMLOCK  &kp KP_CLEAR  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp EQUAL     &kp BACKSPACE
+&kp TAB  &none     &kp UP    &none      &none  &none      &none               &none           &kp N7        &kp N8         &kp N9           &kp KP_PLUS   &none         &none
+&none    &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none      &none               &none           &kp NUMBER_4  &kp N5         &kp N6           &none         &none         &none
+&none    &none     &none     &none      &none  &none      &kp K_CALCULATOR    &none           &kp N1        &kp N2         &kp N3           &none         &none         &none
+&none    &none     &none     &none      &none  &kp SPACE  &none               &none           &kp RET       &to 0          &kp N0           &kp KP_DOT    &kp KP_ENTER  &none
+                                               &to 1      &to 2               &none           &none
             >;
         };
 
